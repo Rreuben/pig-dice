@@ -46,7 +46,7 @@ body {
 }
 
 #line {
-  border-right-style: groove;
+  border-right-style: ridge;
 }
 .row {
   padding: 2.5% 0 2.5% 0;
