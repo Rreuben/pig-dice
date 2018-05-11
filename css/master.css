@@ -1,0 +1,46 @@
+body {
+  background-image: url(../images/background1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  margin-top: 6%;
+}
+.jumbotron {
+  background-color: rgba(192, 214, 249, 0.5);
+}
+
+.startMenu {
+  text-align: center;
+}
+.startMenu h1 h2 {
+
+}
+.startMenu p {
+  font-family: monospace;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.inputForm, .formGroup {
+  font-size: 20px;
+  padding: 2.5%;
+}
+::placeholder {
+  text-align: center;
+}
+.formBox {
+  border: none;
+  border-radius: 2.5px;
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  width: 100%;
+}
+
+#newGameBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5% 5% 0.5% 5%;
+}
