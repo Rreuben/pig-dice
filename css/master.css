@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .jumbotron {
   background-color: rgba(192, 214, 249, 0.5);
@@ -14,10 +14,11 @@ body {
 .startMenu {
   text-align: center;
 }
-.startMenu h1 h2 {
-
+.playerConsole {
+  display: none;
+  text-align: center;
 }
-.startMenu p {
+.startMenu p, .playerConsole p {
   font-family: monospace;
   font-size: 15px;
   padding-bottom: 20px;
@@ -33,14 +34,29 @@ body {
 .formBox {
   border: none;
   border-radius: 2.5px;
-  color: #fff;
   opacity: 0.9;
   text-align: center;
   width: 100%;
 }
 
-#newGameBtn {
+#startBtn, #newGameBtn {
   border: none;
   border-radius: 5px;
   padding: 0.5% 5% 0.5% 5%;
+}
+
+#line {
+  border-right-style: groove;
+}
+.row {
+  padding: 2.5% 0 2.5% 0;
+}
+
+.btns {
+  padding: 20% 0 2.5% 0;
+}
+.btnBox {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5% 2.5% 0.5% 2.5%;
 }

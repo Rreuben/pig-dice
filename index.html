@@ -12,8 +12,8 @@
     <link rel="shortcut icon" href="images/dice.ico">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="jumbotron startMenu">
+    <div class="container-fluid startMenu">
+      <div class="jumbotron">
         <h1>PIG</h1>
         <p>(THE DICE GAME)</p>
         <h2>Let's Play!</h2>
@@ -29,7 +29,32 @@
               </div>
           </form>
         </div>
-        <button id="newGameBtn" type="button" name="newGame">New Game</button>
+        <button id="startBtn" name="start">Start</button>
+      </div>
+    </div>
+    <div class="container-fluid playerConsole">
+      <div class="jumbotron">
+        <h1>PIG</h1>
+        <p>(THE DICE GAME)</p>
+        <div class="row">
+          <div id="line" class="col-md-6 player1GB">
+            <h3>Player 1 <span id = "player1Name"></span><br><span id="totalScore"></span></h3>
+            <div class="btns">
+              <button id="player1-roll" class="btnBox">Roll</button>
+              <button id="player1-hold" class="btnBox">Hold</button>
+            </div>
+            <h4>Current <span id="diceRoll1"></span><br></h4>
+          </div>
+          <div class="col-md-6 player2GB">
+            <h3>Player 2 <span id = "player2Name"></span><br><span id="totalScore"></span></h3>
+            <div class="btns">
+              <button id="player1-roll" class="btnBox">Roll</button>
+              <button id="player1-hold" class="btnBox">Hold</button>
+            </div>
+            <h4>Current <span id="diceRoll1"></span><br></h4>
+          </div>
+        </div>
+        <button id="newGameBtn" name="newGame">New Game</button>
       </div>
     </div>
   </body>
